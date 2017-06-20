@@ -11,7 +11,7 @@
 
 ### 安全問題 ###
 
-被串改的 `main.c`，可以藉由在 tool.h，使用 `#define main foo`，
+被竄改的 `main.c`，可以藉由在 tool.h，使用 `#define main foo`，
 在 main.c 的 `main()` 就會失效。這是一件很危險的事情，造成學生
 可以不上傳正確程序來完成提交。
 
